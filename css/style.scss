@@ -141,7 +141,7 @@ section.hero{
       display: none;
     }
     .logo img {
-        width: 21%;
+        width: 26%;
         height: auto;
         overflow:clip;
        size: 10em;
@@ -154,6 +154,17 @@ section.hero{
     }
     section.hero{
         color: rgb(59, 59, 59);
+        // height: auto;
+        // width: 40%;
+        // margin-bottom: 8em;
+
+        svg.down-arrow{
+            stroke: #000000;
+            path{
+                stroke: #000000;
+                stroke-linejoin: #000000;
+            }
+        }
     }
     nav{
       transform: translateX(0);
