@@ -11,6 +11,12 @@ h1 {
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#262626), color-stop(#eaeaea), to(#262626));
+  background: linear-gradient(#262626, #eaeaea, #262626);
+  -webkit-background-clip: text;
+  color: transparent;
+  z-index: 2;
+  text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #3e3e3e;
 }
 
 .subhead {
@@ -115,7 +121,7 @@ section.hero .down-arrow {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 25em;
+  height: 27em;
 }
 
 .more-info .title {
@@ -149,7 +155,13 @@ section.hero .down-arrow {
 
 @media only screen and (min-width: 920px) {
   h1 {
-    font-size: 3.13rem;
+    font-size: 2.9rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#262626), color-stop(#eaeaea), to(#262626));
+    background: linear-gradient(#262626, #eaeaea, #262626);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: 2;
+    text-shadow: 1px 1px 0  #353535,2px 2px 0  #323232,3px 3px 0  #262626,4px 4px 0  #262626, 5px 5px 0  #616161,1px 1px 0  #969696;
   }
   br {
     display: block;
@@ -174,6 +186,7 @@ section.hero .down-arrow {
   }
   section.hero svg.down-arrow {
     stroke: #000000;
+    animation: moveArrow 1s alternate-reverse infinite;
   }
   section.hero svg.down-arrow path {
     stroke: #000000;
@@ -227,6 +240,44 @@ section.hero .down-arrow {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: left;
+  }
+  .feature.left .content {
+    width: 25em;
+    text-align: left;
+    -ms-grid-column-align: left;
+        justify-self: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .feature {
+    gap: 0;
+  }
+}
+
+@-webkit-keyframes moveArrow {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes moveArrow {
+  from {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 /*# sourceMappingURL=style.css.map */
