@@ -7,6 +7,10 @@ br {
   display: none;
 }
 
+svg.menu {
+  width: 78px;
+}
+
 .menu {
   cursor: pointer;
 }
