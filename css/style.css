@@ -148,6 +148,9 @@ section.hero .down-arrow {
 }
 
 @media only screen and (min-width: 920px) {
+  h1 {
+    font-size: 3.13rem;
+  }
   br {
     display: block;
   }
