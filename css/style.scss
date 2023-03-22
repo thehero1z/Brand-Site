@@ -131,6 +131,13 @@ section.hero{
     .menu{
       display: none;
     }
+    .logo img {
+        width: 21%;
+        height: auto;
+        overflow:clip;
+       size: 10em;
+       margin-top: -1.9em;
+    }
     nav{
       transform: translateX(0);
       position: unset;
@@ -139,6 +146,7 @@ section.hero{
       height: auto;
       background: none;
       
+    
       svg.close{
         display:none;
       }
@@ -152,7 +160,7 @@ section.hero{
 
             &:hover{
                 background: none;
-                color: aqua;
+                color: rgb(161, 244, 244);
             }
             
             // text-align: center;

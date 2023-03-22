@@ -147,6 +147,13 @@ section.hero .down-arrow {
   .menu {
     display: none;
   }
+  .logo img {
+    width: 21%;
+    height: auto;
+    overflow: clip;
+    size: 10em;
+    margin-top: -1.9em;
+  }
   nav {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -171,7 +178,7 @@ section.hero .down-arrow {
   }
   nav ul a:hover {
     background: none;
-    color: aqua;
+    color: #a1f4f4;
   }
 }
 /*# sourceMappingURL=style.css.map */
