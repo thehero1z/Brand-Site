@@ -7,6 +7,10 @@ br {
   display: none;
 }
 
+.menu {
+  cursor: pointer;
+}
+
 h1 {
   font-weight: 700;
   font-size: 3.4rem;
@@ -15,7 +19,7 @@ h1 {
   background: linear-gradient(#262626, #eaeaea, #262626);
   -webkit-background-clip: text;
   color: transparent;
-  z-index: 2;
+  z-index: 4;
   text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #3e3e3e;
 }
 
@@ -33,7 +37,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("/images/background.jpg");
+  background: url("/images/background1.jpg");
   background-size: cover;
   background-position-x: 20%;
   background-position-y: 20%;
@@ -48,6 +52,11 @@ a {
   overflow: clip;
   size: 10em;
   margin-top: .7em;
+}
+
+.open-nav {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 nav {
