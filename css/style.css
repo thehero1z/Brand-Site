@@ -51,6 +51,9 @@ a {
   height: auto;
   overflow: clip;
   margin-top: .7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .open-nav {
