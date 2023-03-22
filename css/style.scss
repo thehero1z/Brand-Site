@@ -127,4 +127,37 @@ section.hero{
         }
     }
 }
+@media only screen and (min-width: 920px){
+    .menu{
+      display: none;
+    }
+    nav{
+      transform: translateX(0);
+      position: unset;
+      display: block;
+      width: auto;
+      height: auto;
+      background: none;
+      
+      svg.close{
+        display:none;
+      }
+      ul{
+        display: flex;
+        margin: 0;
+
+        a{
+            color: white;
+            padding: .2em 1.5em;
+
+            &:hover{
+                background: none;
+                color: aqua;
+            }
+            
+            // text-align: center;
+        }
+      }
+    }
+  }
     
