@@ -3,6 +3,10 @@ body {
   font-family: 'Poppins',sans-serif;
 }
 
+br {
+  display: none;
+}
+
 h1 {
   font-weight: 700;
   font-size: 3.4rem;
@@ -144,6 +148,9 @@ section.hero .down-arrow {
 }
 
 @media only screen and (min-width: 920px) {
+  br {
+    display: block;
+  }
   .menu {
     display: none;
   }
@@ -153,6 +160,14 @@ section.hero .down-arrow {
     overflow: clip;
     size: 10em;
     margin-top: -1.9em;
+  }
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+  }
+  section.hero {
+    color: #3b3b3b;
   }
   nav {
     -webkit-transform: translateX(0);
