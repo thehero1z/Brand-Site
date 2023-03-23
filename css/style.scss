@@ -133,6 +133,40 @@ section.hero{
         line-height: 1.5rem;
     }
 }
+a.footer-item{
+    color: #000000;
+    font-size: 14px;
+    padding: 1px 2px;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-wrap: wrap;
+
+    &:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+}
+ul.footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+div.footer-reserved{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: initial;
+}
+p.footer-text{
+color: #000000;
+text-transform: uppercase;
+font-size: 14px;
+text-align: center;
+font-family: 'IBM Plex Sans', sans-serif;
+}
 @media only screen and (min-width: 680px){
     body{
         margin: 1.5em 5em;
@@ -152,7 +186,38 @@ section.hero{
         .desc{
             line-height: 1.6rem;
         }
+        a.footer-item{
+            color: #000000;
+            font-size: 14px;
+            padding: 1px 2px;
+            text-transform: uppercase;
+            font-family: 'IBM Plex Sans', sans-serif;
+
+            &:hover{
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            
+        }
+        ul.footer {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        div.footer-reserved{
+            display: flex;
+            justify-content: space-evenly;
+        }
+      p.footer-text{
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 14px;
+       text-align: center;
+       font-family: 'IBM Plex Sans', sans-serif;
+      }
     }
+    
 }
 @media only screen and (min-width: 920px){
     h1{
@@ -165,6 +230,38 @@ section.hero{
         5px 5px 0  #616161,1px 1px 0  #969696;
 
     }
+   
+
+        a.footer-item{
+            color: #000000;
+            font-size: 14px;
+            padding: 1px 2px;
+            text-transform: uppercase;
+            font-family: 'IBM Plex Sans', sans-serif;
+
+            &:hover{
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            
+        }
+        ul.footer {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        div.footer-reserved{
+            display: flex;
+            justify-content: space-evenly;
+        }
+      p.footer-text{
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 14px;
+       text-align: center;
+       font-family: 'IBM Plex Sans', sans-serif;
+      }
     br{
         display: block;
     }
