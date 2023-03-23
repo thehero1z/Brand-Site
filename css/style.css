@@ -175,6 +175,8 @@ ul.footer {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 1px;
+  text-align: center;
 }
 
 div.footer-reserved {
