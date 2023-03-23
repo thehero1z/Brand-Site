@@ -14,6 +14,9 @@ svg.menu {
 .menu {
   cursor: pointer;
 }
+svg.down-arrow{
+  display: none;
+}
 
 h1 {
   font-weight: 700;
@@ -132,6 +135,7 @@ section.hero .down-arrow {
   position: absolute;
   bottom: 2em;
   width: 4em;
+ 
 }
 
 .more-info img {
@@ -172,13 +176,18 @@ section.hero .down-arrow {
 
 @media only screen and (min-width: 920px) {
   h1 {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
     background: -webkit-gradient(linear, left top, left bottom, from(#262626), color-stop(#eaeaea), to(#262626));
     background: linear-gradient(#262626, #eaeaea, #262626);
     -webkit-background-clip: text;
     color: transparent;
     z-index: 2;
     text-shadow: 1px 1px 0  #353535,2px 2px 0  #323232,3px 3px 0  #262626,4px 4px 0  #262626, 5px 5px 0  #616161,1px 1px 0  #969696;
+  }
+  .subhead{
+    width: 500px;
+      font-size: 1.4rem;
+      font-weight: 700;
   }
   br {
     display: block;
@@ -264,6 +273,9 @@ section.hero .down-arrow {
     -ms-grid-column-align: left;
         justify-self: left;
   }
+  svg.down-arrow{
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -271,8 +283,16 @@ section.hero .down-arrow {
     width: 1200px;
     margin: 0 auto;
   }
+  .subhead{
+    width: 500px;
+      font-size: 1.4rem;
+      font-weight: 700;
+  }
   .feature {
     gap: 0;
+  }
+  svg.down-arrow{
+    display: block;
   }
 }
 
@@ -296,5 +316,6 @@ section.hero .down-arrow {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+  
 }
 /*# sourceMappingURL=style.css.map */
