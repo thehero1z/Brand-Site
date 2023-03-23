@@ -158,6 +158,7 @@ a.footer-item {
   font-family: 'IBM Plex Sans', sans-serif;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-right: 7px;
 }
 
 a.footer-item:hover {
@@ -175,7 +176,7 @@ ul.footer {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1px;
+  gap: 2px;
   text-align: center;
 }
 
