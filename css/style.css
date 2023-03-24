@@ -31,7 +31,7 @@ h1 {
   font-size: 1.4rem;
   font-weight: 700;
   z-index: 4;
-  text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0   #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #3e3e3e;
+  text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #5d5d5d;
 }
 
 a {
@@ -262,7 +262,7 @@ p.footer-text {
     -webkit-background-clip: text;
     color: transparent;
     z-index: 2;
-    text-shadow: 1px 1px 0  #353535,2px 2px 0  #323232,3px 3px 0  #262626,4px 4px 0  #262626, 5px 5px 0  #616161,1px 1px 0  #969696;
+    text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #686767;
   }
   a.footer-item {
     color: #000000;
@@ -386,6 +386,8 @@ p.footer-text {
   p.subhead {
     font-size: 1.4rem;
     font-weight: 700;
+    z-index: 4;
+    text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #3e3e3e;
   }
 }
 
@@ -400,6 +402,8 @@ p.footer-text {
   p.subhead {
     font-size: 1.4rem;
     font-weight: 700;
+    z-index: 4;
+    text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px 0  #3e3e3e;
   }
 }
 
