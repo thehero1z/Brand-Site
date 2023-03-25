@@ -420,7 +420,7 @@ p.footer-text {
     text-shadow: 1px 1px 0  #e9e7e7,2px 2px 0  #fffafa,3px 3px 0  #7a7a7a,4px 4px 0  #484747, 5px 5px 0  #eceaea,1px 1px   #898888;
   }
 }
-
+/* Animations  */
 @-webkit-keyframes moveArrow {
   from {
     -webkit-transform: translateY(-30px);
