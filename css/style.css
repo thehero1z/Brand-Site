@@ -273,7 +273,7 @@ p.footer-text {
         flex-wrap: wrap;
     line-height: 2rem;
     color: transparent;
-    z-index: 2;
+    z-index: 9;
   }
   a.footer-item {
     color: #000000;
