@@ -267,6 +267,14 @@ p.footer-text {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .paragraph {
+    width: 440px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    line-height: 2rem;
+    color: transparent;
+    z-index: 2;
+  }
   a.footer-item {
     color: #000000;
     font-size: 14px;
@@ -358,7 +366,7 @@ p.footer-text {
   }
   nav ul a:hover {
     background: none;
-    color: #a1f4f4;
+    font-weight: bold;
   }
   .feature {
     display: -ms-grid;

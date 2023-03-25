@@ -6,6 +6,7 @@ body{
 br{
     display: none;
 }
+
 svg.menu{
     width: 78px;
    
@@ -235,6 +236,13 @@ font-family: 'IBM Plex Sans', sans-serif;
         flex-wrap: wrap;
 
     }
+    .paragraph{
+        width: 440px;
+        // display: flex;
+        flex-wrap: wrap;
+        line-height: 2rem;
+        color: #b6b5b5;
+    }
    
 
         a.footer-item{
@@ -325,7 +333,7 @@ font-family: 'IBM Plex Sans', sans-serif;
 
             &:hover{
                 background: none;
-                color: rgb(161, 244, 244);
+                font-weight: bold;
             }
             
             // text-align: center;
